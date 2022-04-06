@@ -1,15 +1,13 @@
 using System;
 class Number{
     public static bool IsSelfDivisor(int num){
-        while(num > 0){
-            int digit = num % 10;
-            if(digit == 0){
+        int number = num;
+        while(number > 0){
+            int digit = number % 10;
+            if(digit == 0 || num % digit != 0){
                 return false;
             }
-            if(num % digit != 0){
-                return false;
-            }
-            num = num/10;
+            number = number/10;
         }
         return true;
     }
