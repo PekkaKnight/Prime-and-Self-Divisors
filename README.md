@@ -1,5 +1,5 @@
 # Prime-and-Self-Divisors
-
+![C# Self Divisors and Prime Numbers](https://user-images.githubusercontent.com/98252856/161897556-33b06263-1ed4-4f48-854c-3de2e4d2aac1.png)
 This is a project in C#. <br>
 The user will input a number. <br>
 ##
